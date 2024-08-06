@@ -10,26 +10,30 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <div class="header__logo">
-            <img src="./img/LOGO.png" alt="Internet Diff" />
-          </div>
-          <nav>
-            <ul class="header__nav">
-              <li><a href="./home.html">HOME</a></li>
-              <li><a href="./about.html">ABOUT</a></li>
-              <li><a href="./catalog.html">CATALOG</a></li>
-              <li><a href="./contact.html">CONTACTS</a></li>
-            </ul>
-          </nav>
+     <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo"><img src="./img/LOGO.png" alt="No Internet"></div>
+                <nav>
+                    <ul class="header__nav">
+                        <li><a href="./home.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                        <li><a href="./catalog.html">CATALOG</a></li>
+                        <li><a href="./contact.html">CONTACTS</a></li>
+                    </ul>
+                </nav>
+                <div class="toggle__menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
+     </header>
 
     <!-- ABOUT BANNER -->
     <section class="aboutBanner">
@@ -37,9 +41,7 @@
         <div class="aboutBanner__wrapper">
           <div class="aboutBanner__img">
             <img src="./img/about.png" alt="" />
-            <p>
-                Interior Designer
-            </p>
+            <p>Interior Designer</p>
           </div>
           <div class="aboutBanner__text">
             <h1>ABOUT US</h1>
@@ -61,21 +63,21 @@
               corrupti?
             </p>
             <ul class="aboutBanner__Social">
-             <li>
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-             </li>
-             <li>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-             </li>
-             <li>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-             </li>
-             <li>
-              <a href=""><i class="fa-brands fa-youtube"></i></a>
-             </li>
-             <li>
-              <a href=""><i class="fa-solid fa-envelope"></i></a>
-            </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -83,95 +85,79 @@
     </section>
 
     <!-- LATEST STYLE -->
-     <section class="aboutCatalog">
-        <div class="container">
-            <div class="aboutCatalog__title">
-                <h2>
-                    Latest Styles
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, odit!
-                </p>
-            </div>
-            <div class="aboutCatalog__wrapper">
-                <div class="aboutCatalog__card">
-                    <img src="./img/latest-1.png" alt="Internet Diff">
-                    <div class="aboutCatalog__card--text">
-                        <h3>
-                            Formal  Theme
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ad sequi distinctio enim facere.
-                        </p>
-                    </div>
-                </div>
-                <div class="aboutCatalog__card">
-                    <img src="./img/latest-2.png" alt="Internet Diff">
-                    <div class="aboutCatalog__card--text">
-                        <h3>
-                            Modern Theme
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ad sequi distinctio enim facere.
-                        </p>
-                    </div>
-                </div>
-                <div class="aboutCatalog__card">
-                    <img src="./img/latest-3.png" alt="Internet Diff">
-                    <div class="aboutCatalog__card--text">
-                        <h3>
-                            Boho Theme
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ad sequi distinctio enim facere.
-                        </p>
-                    </div>
-                </div>
-                           <div class="aboutCatalog__card">
-                    <img src="./img/latest-4.png" alt="Internet Diff">
-                    <div class="aboutCatalog__card--text">
-                        <h3>
-                            Minimalist Theme
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ad sequi distinctio enim facere.
-                        </p>
-                    </div>
-                </div>
-                           <div class="aboutCatalog__card">
-                    <img src="./img/latest-5.png" alt="Internet Diff">
-                    <div class="aboutCatalog__card--text">
-                        <h3>
-                            Wood Theme
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ad sequi distinctio enim facere.
-                        </p>
-                    </div>
-                </div>
-                           <div class="aboutCatalog__card">
-                    <img src="./img/latest-6.png" alt="Internet Diff">
-                    <div class="aboutCatalog__card--text">
-                        <h3>
-                            Spanish Theme
-                        </h3>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam illo ad sequi distinctio enim facere.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <section class="aboutCatalog">
+      <div class="container">
+        <div class="aboutCatalog__title">
+          <h2>Latest Styles</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem,
+            odit!
+          </p>
         </div>
-     </section>
-
-
-
-
-
-
-
-
-
+        <div class="aboutCatalog__wrapper">
+          <div class="aboutCatalog__card">
+            <img src="./img/latest-1.png" alt="Internet Diff" />
+            <div class="aboutCatalog__card--text">
+              <h3>Formal Theme</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                illo ad sequi distinctio enim facere.
+              </p>
+            </div>
+          </div>
+          <div class="aboutCatalog__card">
+            <img src="./img/latest-2.png" alt="Internet Diff" />
+            <div class="aboutCatalog__card--text">
+              <h3>Modern Theme</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                illo ad sequi distinctio enim facere.
+              </p>
+            </div>
+          </div>
+          <div class="aboutCatalog__card">
+            <img src="./img/latest-3.png" alt="Internet Diff" />
+            <div class="aboutCatalog__card--text">
+              <h3>Boho Theme</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                illo ad sequi distinctio enim facere.
+              </p>
+            </div>
+          </div>
+          <div class="aboutCatalog__card">
+            <img src="./img/latest-4.png" alt="Internet Diff" />
+            <div class="aboutCatalog__card--text">
+              <h3>Minimalist Theme</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                illo ad sequi distinctio enim facere.
+              </p>
+            </div>
+          </div>
+          <div class="aboutCatalog__card">
+            <img src="./img/latest-5.png" alt="Internet Diff" />
+            <div class="aboutCatalog__card--text">
+              <h3>Wood Theme</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                illo ad sequi distinctio enim facere.
+              </p>
+            </div>
+          </div>
+          <div class="aboutCatalog__card">
+            <img src="./img/latest-6.png" alt="Internet Diff" />
+            <div class="aboutCatalog__card--text">
+              <h3>Spanish Theme</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                illo ad sequi distinctio enim facere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- CALL TO ACTION -->
     <section class="cta">
@@ -183,7 +169,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
               officiis.
             </p>
-            <a href="" class="btn bg-tertiary">Contact Us</a>
+            <a href="./contact.html" class="btn bg-tertiary">Contact Us</a>
           </div>
         </div>
       </div>
@@ -215,5 +201,11 @@
         </div>
       </div>
     </footer>
+    <!-- SCRIPT -->
+    <script src="./js/toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
